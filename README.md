@@ -5,6 +5,10 @@
 ## Project Overview
 This Jupyter Notebook is a comprehensive analysis tool for classifying and exploring various music genres using the Spotify API. It employs a combination of data collection, preprocessing, and machine learning techniques to build a robust model that can classify songs into genres such as pop, rock, jazz, classical, and hip-hop.
 
+
+## How to Use it 
+Update the credentials.txt with your own Spotify API credentials and launch the notebook.
+
 ## Key Features
 
 ### 1. Spotify API Integration
@@ -21,9 +25,6 @@ Enhances the dataset with calculated features and transformations to improve mod
 
 ### 5. Model Training and Evaluation
 Utilizes several machine learning algorithms (e.g., Logistic Regression, Random Forest, and SVM) to classify tracks into genres. Includes cross-validation and hyperparameter tuning to optimize model performance.
-
-### 6. Results Analysis
-Provides detailed reports and visualizations to assess the performance of the classifiers and gain insights into the data.
 
 ## Potential Applications
 
@@ -45,3 +46,4 @@ Provides detailed reports and visualizations to assess the performance of the cl
 - Building and tuning classifiers to accurately predict music genres based on audio features.
 
 
+- PS: Analysis Notebook is only the analysis of my own dataset retrieved through the API.Each credential give unique dataset and thus unique results. 
